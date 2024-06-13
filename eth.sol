@@ -1,3 +1,5 @@
+```javascript
+
 // SPDX-License-Identifier: MIT
 pragma solidity 0.8.26;
 
@@ -37,6 +39,7 @@ contract MyToken {
         total_Supply -= _value;
         balances[_address] -=_value;
     }
+```
     }
 
 
